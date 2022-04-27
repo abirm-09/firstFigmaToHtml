@@ -1,0 +1,222 @@
+/* ==================================================
+                    common style css
+===================================================== */
+
+:root {
+    --header-background: #F0C53E;
+    --btn-color: #B25A59;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+.bg-my-primary {
+    background-color: var(--btn-color);
+}
+
+.text-my-primary {
+    color: var(--btn-color);
+}
+
+/* ==================================================
+                 header style css
+===================================================== */
+.main_header {
+    background-color: var(--header-background);
+    width: 100vw;
+    min-height: 100vh;
+    /* clip-path: polygon(50% 0%, 100% 0%, 100% 80%, 75% 90%, 60% 95%, 40% 95%, 25% 90%, 0% 80%, 0% 0%); */
+}
+
+.logo img {
+    width: 150px;
+}
+
+/* nav_bar style */
+.nav_bar ul li a {
+    padding: 8px 25px !important;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s linear !important;
+}
+
+.nav_bar ul li a:hover {
+    color: #B25A59 !important;
+}
+
+.header_phone {
+    background-color: var(--btn-color);
+    border-radius: 30px;
+}
+
+.hero_left_text h3 {
+    font-size: 47.5px;
+}
+
+.exp_destination {
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+.watch_how_btn a img {
+    width: 50px;
+    height: 50px;
+}
+
+.hero_right_bg {
+    /* max-width: 400px; */
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
+    background: url(media/images/travelgraphicks.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.hero_right_bg img.img250k {
+    width: 150px;
+    padding-top: 40px;
+}
+
+.hero_right_bg img.upcommingtrips {
+    width: 150px;
+}
+
+/* ==================================================
+                 checkout section style css
+===================================================== */
+.title {
+    font-size: 22px;
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: bold;
+}
+
+.checkout_text p {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.card_img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.card_title {
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: var(--btn-color);
+}
+
+/* ==================================================
+         globally accepted section style css
+===================================================== */
+.inner_globally p {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.globall_card_bg {
+    background-color: #CCE3EC;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.globall_card_bg img {
+    width: 200px;
+}
+
+.global_card_top {
+    width: 100%;
+    height: 100%;
+    background: rgba(124, 2, 2, 0.7);
+    opacity: 0;
+    left: 0;
+    top: 0;
+    transition: all .3s linear;
+}
+
+.globall_card_bg:hover .global_card_top {
+    opacity: 1;
+}
+
+.global_card_top h5 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.global_card_top .card_body a {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 6px 15px;
+}
+
+/* ==================================================
+         Tour section style css
+===================================================== */
+.tour_title_circle {
+    width: 35px;
+    height: 35px;
+    background: var(--header-background);
+    z-index: 2;
+}
+
+.tour_title h2 {
+    position: relative;
+    left: -30px;
+    top: -5px;
+    z-index: 3;
+}
+
+.tour_paragraph {
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: .9rem;
+    color: #2C2D32;
+}
+
+.tour_body_little_circle {
+    width: 20px;
+    height: 20px;
+    background: var(--header-background);
+    top: 50px;
+}
+
+
+
+.right_tour_video .tour_video {
+    width: 350px;
+}
+
+.right_tour_video .tour_video::before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 65px;
+    background: var(--btn-color);
+    border-radius: 10px;
+    top: -10px;
+    left: -8px;
+    z-index: 2;
+}
+
+.right_tour_video .tour_video img {
+    z-index: 3;
+}

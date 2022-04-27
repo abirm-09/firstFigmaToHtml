@@ -1,0 +1,22 @@
+@media screen and (min-width:768px) {
+    .hero_right_bg {
+        min-height: 350px;
+    }
+
+    .hero_right_bg img.upcommingtrips {
+        width: 250px;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .tour_title_circle {
+        width: 50px;
+        height: 50px;
+    }
+
+    .right_tour_video .tour_video {
+        width: 400px;
+    }
+}
